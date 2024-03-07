@@ -172,7 +172,7 @@ canvas {
   margin: 0 auto;
   transform: scale(0.8);
   filter: blur(calc(var(--card-height) / 3));
-  background-image: linear-gradient(var(--rotate), #0df8d0, #0df8d0, #0df8d0);
+  background-image: linear-gradient(var(--rotate), #0da9f8, #f80d47, #00ff91);
   opacity: 1;
   transition: opacity .5s;
   animation: spin 8s linear infinite;
