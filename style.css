@@ -50,7 +50,7 @@ canvas {
   margin-top: 6%;
   box-shadow: 5px 5px 5px var(--box-shadow-color);
   border-radius: 5px;
-  color: #bdace7;
+  color: #0df8d0;
 }
 
 .card img {
@@ -172,7 +172,7 @@ canvas {
   margin: 0 auto;
   transform: scale(0.8);
   filter: blur(calc(var(--card-height) / 3));
-  background-image: linear-gradient(var(--rotate), #6600ff, #ff00e1, #831acb);
+  background-image: linear-gradient(var(--rotate), #0df8d0, #0df8d0, #0df8d0);
   opacity: 1;
   transition: opacity .5s;
   animation: spin 8s linear infinite;
@@ -190,7 +190,7 @@ canvas {
 /* swirly text css */
 
 body {
-  background: #030321;
+  background: #313030;
   font-family: sans-serif;
 }
 
@@ -230,7 +230,7 @@ svg {
 }
 
 .text-copy:nth-child(5) {
-  stroke: #194f67;
+  stroke: #00b3ff;
   animation-delay: -5s;
 }
 
